@@ -1,0 +1,115 @@
+/*normalize */
+
+html, body{
+	margin: 5px;
+	padding: 5px;
+	font-family: 'Adamina', serif;
+	
+}
+
+body{
+	background-color: #555753FF;
+	font-weight: 100;
+}
+
+
+p,ul,ol,text{
+	color: #fff;
+}
+
+h3,h1{
+	color: #6EB9D6FF;
+}
+
+
+a.validator{
+	border-color: #EF2929FF;
+}
+
+a:hover{
+	opacity: 0.7;
+
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+	color: #ff6666;
+}
+
+h2#aboutme{
+	color: blue;
+}
+
+img#happy{
+
+	width: 215px;
+	height: 200px;
+}
+img#sad{
+
+	width: 200px;
+	height: 200px;
+}
+/*app */
+div#main-wrapper{
+	background-color: rgba(1,1,1,0.2);
+	width: 80%;
+	padding: 5px;
+	margin: 5px ;
+	text-decoration-color: #FFF;
+	max-width: 600px;
+	min-width: 550px;
+}
+
+div#wrapper1{
+	background-color: #eee;
+	width: 50%;
+	padding: 5px;
+	margin: 25px auto;
+	max-width: 800px;
+	min-width: 550px;
+
+}
+
+
+h1#page-header{
+	margin: 15px 0px;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+div.btn{
+	display: inline-block; 
+	background-color: #eee;
+	padding: 2.5px 5px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+div.btn:hover{
+	opacity: 0.5; 
+}
+
+div#social-media{
+	text-align: center;	 
+}
+
+div#social-media a{
+	text-decoration: none;
+	color: #000;
+}
+
+img#header-image{
+	margin: 15px auto;
+	display: block;
+}
+
+div#footer-text{
+	text-align: center;
+	font-size: 0.5em;
+	margin-bottom: 15px;
+}
+
+strong{
+	color: yellow;
+}
